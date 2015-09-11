@@ -5,7 +5,7 @@ Modified 3-2-2014
 @author: Chauncey Philpot: cbp0009
 '''
 import unittest
-from starcatalog import StarCatalog
+from starCatalog import StarCatalog
 class StarCatalogTest(unittest.TestCase):
     
     fileName = "catalog.txt"
@@ -59,3 +59,5 @@ class StarCatalogTest(unittest.TestCase):
         self.assertRaises(ValueError, myCat.getMagnitude, 7, -0.77301636)
         self.assertRaises(ValueError, myCat.getMagnitude, 0, 3)
         
+if __name__ == '__main__':
+    unittest.main()

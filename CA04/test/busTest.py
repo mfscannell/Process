@@ -41,4 +41,5 @@ class BusTest(unittest.TestCase):
         #Sad Case
         self.assertRaises(ValueError, bus.readBus)
 
-
+if __name__ == '__main__':
+    unittest.main()

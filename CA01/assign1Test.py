@@ -1,5 +1,5 @@
 import unittest
-from assignment1 import Curve
+from Assignment1 import Curve
 
 class testCurve(unittest.TestCase):
 
@@ -82,4 +82,6 @@ class testCurve(unittest.TestCase):
     def func(self, x):
         return x**2
 
+if __name__ == '__main__':
+    unittest.main()
 
