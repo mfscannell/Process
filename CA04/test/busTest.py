@@ -1,7 +1,7 @@
 '''
 Created on Mar 27, 2014
 
-@author: chanpod
+@author: 
 '''
 import unittest
 from CA04.prod.bus import Bus
